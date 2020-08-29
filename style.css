@@ -1,0 +1,43 @@
+/* body {
+    background-color: #fd0;
+} */
+h1 {
+  text-align: center;
+  font-family: arial, sans-serif;
+  text-transform: uppercase;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #fd0;
+}
+tr:nth-child(odd) {
+  background-color: burlywood;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: line;
+}
+
+input {
+  text-align: center;
+}
+
+a {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+}
+

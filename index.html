@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Body Analysis</title>
+  </head>
+  <body>
+    <h1>Body Analysis</h1>
+    <nav>
+      <a href="2019.html">2019 Body Analysis</a>
+    </nav>
+    <table>
+      <tr>
+        <th>Date</th>
+        <th><input type="date" id="date-first-column" /></th>
+        <th><input type="date" id="date-second-column" /></th>
+        <th><input type="date" id="date-third-column" /></th>
+        <th><input type="date" id="date-fourth-column" /></th>
+        <th><input type="date" id="date-fifth-column" /></th>
+        <th><input type="date" id="date-sixth-column" /></th>
+      </tr>
+      <tr id="total-body-weight">
+        <td>Total Body Weight Kg</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Fat % <br />Recommended Range <br />[16 - 20]</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Fat Kg <br />Recommended Range <br />[12 - 15]</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Lean Weight <br />Recommended Range <br />[62 - 65]</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Water % <br />Recommended Range <br />[55 - 65]</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Total Body Water Ltr<br />Recommended Range <br />[42 - 49]</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Dry Lean Kg</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="dry-lean-kilo-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="dry-lean-kilo-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="dry-lean-kilo-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="dry-lean-kilo-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="dry-lean-kilo-5" />
+        </td>
+        <td>
+          <input type="number' step="0.01" min="0" id="dry-lean-kilo-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>BMR Kcal</td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-1" /></td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-2" /></td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-3" /></td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-4" /></td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-5" /></td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-6" /></td>
+      </tr>
+      <tr>
+        <td>Energy Kcal</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Waist cm</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="waist-cm-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="waist-cm-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="waist-cm-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="waist-cm-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="waist-cm-5" />
+        </td>
+        <td><input type="number' step="0.01" min="0" id="waist-cm-6" /></td>
+      </tr>
+      <tr>
+        <td>Hips cm</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-6" />
+        </td>
+      </tr>
+    </table>
+    <hr />
+    <table>
+      <tr>
+        <th>Date</th>
+        <th><input type="date" id="date-first-column" /></th>
+        <th><input type="date" id="date-second-column" /></th>
+        <th><input type="date" id="date-third-column" /></th>
+        <th><input type="date" id="date-fourth-column" /></th>
+        <th><input type="date" id="date-fifth-column" /></th>
+        <th><input type="date" id="date-sixth-column" /></th>
+      </tr>
+      <tr id="total-body-weight">
+        <td>Total Body Weight Kg</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Fat % <br />Recommended Range <br />[16 - 20]</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Fat Kg <br />Recommended Range <br />[12 - 15]</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Lean Weight <br />Recommended Range <br />[62 - 65]</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Water % <br />Recommended Range <br />[55 - 65]</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Total Body Water Ltr<br />Recommended Range <br />[42 - 49]</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Dry Lean Kg</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="dry-lean-kilo-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="dry-lean-kilo-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="dry-lean-kilo-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="dry-lean-kilo-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="dry-lean-kilo-5" />
+        </td>
+        <td>
+          <input type="number' step="0.01" min="0" id="dry-lean-kilo-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>BMR Kcal</td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-1" /></td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-2" /></td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-3" /></td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-4" /></td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-5" /></td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-6" /></td>
+      </tr>
+      <tr>
+        <td>Energy Kcal</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Waist cm</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="waist-cm-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="waist-cm-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="waist-cm-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="waist-cm-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="waist-cm-5" />
+        </td>
+        <td><input type="number' step="0.01" min="0" id="waist-cm-6" /></td>
+      </tr>
+      <tr>
+        <td>Hips cm</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-6" />
+        </td>
+      </tr>
+    </table>
+    <hr>
+    <table>
+      <tr>
+        <th>Date</th>
+        <th><input type="date" id="date-first-column" /></th>
+        <th><input type="date" id="date-second-column" /></th>
+        <th><input type="date" id="date-third-column" /></th>
+        <th><input type="date" id="date-fourth-column" /></th>
+        <th><input type="date" id="date-fifth-column" /></th>
+        <th><input type="date" id="date-sixth-column" /></th>
+      </tr>
+      <tr id="total-body-weight">
+        <td>Total Body Weight Kg</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="body-weight-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Fat % <br />Recommended Range <br />[16 - 20]</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-percent-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Fat Kg <br />Recommended Range <br />[12 - 15]</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="fat-kilo-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Lean Weight <br />Recommended Range <br />[62 - 65]</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="lean-weight-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Water % <br />Recommended Range <br />[55 - 65]</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="water-percent-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Total Body Water Ltr<br />Recommended Range <br />[42 - 49]</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="total-body-water-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Dry Lean Kg</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="dry-lean-kilo-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="dry-lean-kilo-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="dry-lean-kilo-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="dry-lean-kilo-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="dry-lean-kilo-5" />
+        </td>
+        <td>
+          <input type="number' step="0.01" min="0" id="dry-lean-kilo-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>BMR Kcal</td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-1" /></td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-2" /></td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-3" /></td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-4" /></td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-5" /></td>
+        <td><input type="number" step="0.01" min="0" id="bmr-cal-6" /></td>
+      </tr>
+      <tr>
+        <td>Energy Kcal</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="energy-cal-6" />
+        </td>
+      </tr>
+      <tr>
+        <td>Waist cm</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="waist-cm-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="waist-cm-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="waist-cm-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="waist-cm-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="waist-cm-5" />
+        </td>
+        <td><input type="number' step="0.01" min="0" id="waist-cm-6" /></td>
+      </tr>
+      <tr>
+        <td>Hips cm</td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-1" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-2" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-3" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-4" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-5" />
+        </td>
+        <td>
+          <input type="number" step="0.01" min="0" id="hips-cm-6" />
+        </td>
+      </tr>
+    </table>
+
+   
+    <script src="script.js"></script>
+  </body>
+</html>
