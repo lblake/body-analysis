@@ -442,6 +442,27 @@ persistInput(fatKilo_4);
 persistInput(fatKilo_5);
 persistInput(fatKilo_6);
 
+persistInput(fatKilo_7);
+persistInput(fatKilo_8);
+persistInput(fatKilo_9);
+persistInput(fatKilo_10);
+persistInput(fatKilo_11);
+persistInput(fatKilo_12);
+
+persistInput(fatKilo_13);
+persistInput(fatKilo_14);
+persistInput(fatKilo_15);
+persistInput(fatKilo_16);
+persistInput(fatKilo_17);
+persistInput(fatKilo_18);
+
+persistInput(fatKilo_19);
+persistInput(fatKilo_20);
+persistInput(fatKilo_21);
+persistInput(fatKilo_22);
+persistInput(fatKilo_23);
+persistInput(fatKilo_24);
+
 // Lean Weight Kg
 persistInput(leanKilo_1);
 persistInput(leanKilo_2);
@@ -449,6 +470,27 @@ persistInput(leanKilo_3);
 persistInput(leanKilo_4);
 persistInput(leanKilo_5);
 persistInput(leanKilo_6);
+
+persistInput(leanKilo_7);
+persistInput(leanKilo_8);
+persistInput(leanKilo_9);
+persistInput(leanKilo_10);
+persistInput(leanKilo_11);
+persistInput(leanKilo_12);
+
+persistInput(leanKilo_13);
+persistInput(leanKilo_14);
+persistInput(leanKilo_15);
+persistInput(leanKilo_16);
+persistInput(leanKilo_17);
+persistInput(leanKilo_18);
+
+persistInput(leanKilo_19);
+persistInput(leanKilo_20);
+persistInput(leanKilo_21);
+persistInput(leanKilo_22);
+persistInput(leanKilo_23);
+persistInput(leanKilo_24);
 
 // Water %
 persistInput(waterPercent_1);
@@ -458,6 +500,27 @@ persistInput(waterPercent_4);
 persistInput(waterPercent_5);
 persistInput(waterPercent_6);
 
+persistInput(waterPercent_7);
+persistInput(waterPercent_8);
+persistInput(waterPercent_9);
+persistInput(waterPercent_10);
+persistInput(waterPercent_11);
+persistInput(waterPercent_12);
+
+persistInput(waterPercent_13);
+persistInput(waterPercent_14);
+persistInput(waterPercent_15);
+persistInput(waterPercent_16);
+persistInput(waterPercent_17);
+persistInput(waterPercent_18);
+
+persistInput(waterPercent_19);
+persistInput(waterPercent_20);
+persistInput(waterPercent_21);
+persistInput(waterPercent_22);
+persistInput(waterPercent_23);
+persistInput(waterPercent_24);
+
 // Total Body Water Ltr
 persistInput(totalBodyWater_1);
 persistInput(totalBodyWater_2);
@@ -465,6 +528,27 @@ persistInput(totalBodyWater_3);
 persistInput(totalBodyWater_4);
 persistInput(totalBodyWater_5);
 persistInput(totalBodyWater_6);
+
+persistInput(totalBodyWater_7);
+persistInput(totalBodyWater_8);
+persistInput(totalBodyWater_9);
+persistInput(totalBodyWater_10);
+persistInput(totalBodyWater_11);
+persistInput(totalBodyWater_12);
+
+persistInput(totalBodyWater_13);
+persistInput(totalBodyWater_14);
+persistInput(totalBodyWater_15);
+persistInput(totalBodyWater_16);
+persistInput(totalBodyWater_17);
+persistInput(totalBodyWater_18);
+
+persistInput(totalBodyWater_19);
+persistInput(totalBodyWater_20);
+persistInput(totalBodyWater_21);
+persistInput(totalBodyWater_22);
+persistInput(totalBodyWater_23);
+persistInput(totalBodyWater_24);
 
 // Dry LeanKg
 persistInput(dryLean_1);
@@ -474,6 +558,27 @@ persistInput(dryLean_4);
 persistInput(dryLean_5);
 persistInput(dryLean_6);
 
+persistInput(dryLean_7);
+persistInput(dryLean_8);
+persistInput(dryLean_9);
+persistInput(dryLean_10);
+persistInput(dryLean_11);
+persistInput(dryLean_12);
+
+persistInput(dryLean_13);
+persistInput(dryLean_14);
+persistInput(dryLean_15);
+persistInput(dryLean_16);
+persistInput(dryLean_17);
+persistInput(dryLean_18);
+
+persistInput(dryLean_19);
+persistInput(dryLean_20);
+persistInput(dryLean_21);
+persistInput(dryLean_22);
+persistInput(dryLean_23);
+persistInput(dryLean_24);
+
 // BMR Kcal
 persistInput(bmrKcal_1);
 persistInput(bmrKcal_2);
@@ -481,6 +586,27 @@ persistInput(bmrKcal_3);
 persistInput(bmrKcal_4);
 persistInput(bmrKcal_5);
 persistInput(bmrKcal_6);
+
+persistInput(bmrKcal_7);
+persistInput(bmrKcal_8);
+persistInput(bmrKcal_9);
+persistInput(bmrKcal_10);
+persistInput(bmrKcal_11);
+persistInput(bmrKcal_12);
+
+persistInput(bmrKcal_13);
+persistInput(bmrKcal_14);
+persistInput(bmrKcal_15);
+persistInput(bmrKcal_16);
+persistInput(bmrKcal_17);
+persistInput(bmrKcal_18);
+
+persistInput(bmrKcal_19);
+persistInput(bmrKcal_20);
+persistInput(bmrKcal_21);
+persistInput(bmrKcal_22);
+persistInput(bmrKcal_23);
+persistInput(bmrKcal_24);
 
 // Energy Required
 persistInput(energyKcal_1);
@@ -490,6 +616,28 @@ persistInput(energyKcal_4);
 persistInput(energyKcal_5);
 persistInput(energyKcal_6);
 
+persistInput(energyKcal_7);
+persistInput(energyKcal_8);
+persistInput(energyKcal_9);
+persistInput(energyKcal_10);
+persistInput(energyKcal_11);
+persistInput(energyKcal_12);
+
+persistInput(energyKcal_13);
+persistInput(energyKcal_14);
+persistInput(energyKcal_15);
+persistInput(energyKcal_16);
+persistInput(energyKcal_17);
+persistInput(energyKcal_18);
+
+persistInput(energyKcal_19);
+persistInput(energyKcal_20);
+persistInput(energyKcal_21);
+persistInput(energyKcal_22);
+persistInput(energyKcal_23);
+persistInput(energyKcal_24);
+
+
 // Waist Cm
 persistInput(waistCm_1);
 persistInput(waistCm_2);
@@ -498,6 +646,27 @@ persistInput(waistCm_4);
 persistInput(waistCm_5);
 persistInput(waistCm_6);
 
+persistInput(waistCm_7);
+persistInput(waistCm_8);
+persistInput(waistCm_9);
+persistInput(waistCm_10);
+persistInput(waistCm_11);
+persistInput(waistCm_12);
+
+persistInput(waistCm_13);
+persistInput(waistCm_14);
+persistInput(waistCm_15);
+persistInput(waistCm_16);
+persistInput(waistCm_17);
+persistInput(waistCm_18);
+
+persistInput(waistCm_19);
+persistInput(waistCm_20);
+persistInput(waistCm_21);
+persistInput(waistCm_22);
+persistInput(waistCm_23);
+persistInput(waistCm_24);
+
 // Hips Cm
 persistInput(hipsCm_1);
 persistInput(hipsCm_2);
@@ -505,6 +674,27 @@ persistInput(hipsCm_3);
 persistInput(hipsCm_4);
 persistInput(hipsCm_5);
 persistInput(hipsCm_6);
+
+persistInput(hipsCm_7);
+persistInput(hipsCm_8);
+persistInput(hipsCm_9);
+persistInput(hipsCm_10);
+persistInput(hipsCm_11);
+persistInput(hipsCm_12);
+
+persistInput(hipsCm_13);
+persistInput(hipsCm_14);
+persistInput(hipsCm_15);
+persistInput(hipsCm_16);
+persistInput(hipsCm_17);
+persistInput(hipsCm_18);
+
+persistInput(hipsCm_19);
+persistInput(hipsCm_20);
+persistInput(hipsCm_21);
+persistInput(hipsCm_22);
+persistInput(hipsCm_23);
+persistInput(hipsCm_24);
 
 //Function to store data in localstorage
 function persistInput(input) {
