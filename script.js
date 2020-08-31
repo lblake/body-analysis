@@ -1,5 +1,20 @@
 //Constants
 /************************************************************/
+//Dates
+const dateFirstColumn_1 = document.querySelector('#date-first-column');
+const dateFirstColumn_2 = document.querySelector('#date-second-column');
+const dateFirstColumn_3 = document.querySelector('#date-third-column');
+const dateFirstColumn_4 = document.querySelector('#date-fourth-column');
+const dateFirstColumn_5 = document.querySelector('#date-fifth-column');
+const dateFirstColumn_6 = document.querySelector('#date-sixth-column');
+
+const dateFirstColumn_7 = document.querySelector('#date-first-column-7');
+const dateFirstColumn_8 = document.querySelector('#date-second-column-8');
+const dateFirstColumn_9 = document.querySelector('#date-third-column-9');
+const dateFirstColumn_10 = document.querySelector('#date-fourth-column-10');
+const dateFirstColumn_11 = document.querySelector('#date-fifth-column-11');
+const dateFirstColumn_12 = document.querySelector('#date-sixth-column-12');
+
 //Total Body Weight
 const bodyWeight_1 = document.querySelector('#body-weight-1');
 const bodyWeight_2 = document.querySelector('#body-weight-2');
@@ -8,13 +23,12 @@ const bodyWeight_4 = document.querySelector('#body-weight-4');
 const bodyWeight_5 = document.querySelector('#body-weight-5');
 const bodyWeight_6 = document.querySelector('#body-weight-6');
 
-//Dates
-const dateFirstColumn_1 = document.querySelector('#date-first-column');
-const dateFirstColumn_2 = document.querySelector('#date-second-column');
-const dateFirstColumn_3 = document.querySelector('#date-third-column');
-const dateFirstColumn_4 = document.querySelector('#date-fourth-column');
-const dateFirstColumn_5 = document.querySelector('#date-fifth-column');
-const dateFirstColumn_6 = document.querySelector('#date-sixth-column');
+const bodyWeight_7 = document.querySelector('#body-weight-7');
+const bodyWeight_8 = document.querySelector('#body-weight-8');
+const bodyWeight_9 = document.querySelector('#body-weight-9');
+const bodyWeight_10 = document.querySelector('#body-weight-10');
+const bodyWeight_11 = document.querySelector('#body-weight-11');
+const bodyWeight_12 = document.querySelector('#body-weight-12');
 
 //Fat Percentage
 const fatPercent_1 = document.querySelector('#fat-percent-1');
@@ -97,6 +111,13 @@ persistInput(dateFirstColumn_4);
 persistInput(dateFirstColumn_5);
 persistInput(dateFirstColumn_6);
 
+persistInput(dateFirstColumn_7);
+persistInput(dateFirstColumn_8);
+persistInput(dateFirstColumn_9);
+persistInput(dateFirstColumn_10);
+persistInput(dateFirstColumn_11);
+persistInput(dateFirstColumn_12);
+
 //Body Weight Data
 persistInput(bodyWeight_1);
 persistInput(bodyWeight_2);
@@ -104,6 +125,13 @@ persistInput(bodyWeight_3);
 persistInput(bodyWeight_4);
 persistInput(bodyWeight_5);
 persistInput(bodyWeight_6);
+
+persistInput(bodyWeight_7);
+persistInput(bodyWeight_8);
+persistInput(bodyWeight_9);
+persistInput(bodyWeight_10);
+persistInput(bodyWeight_11);
+persistInput(bodyWeight_12);
 
 //Fat Pecentage
 persistInput(fatPercent_1);
