@@ -59,148 +59,148 @@ const bodyWeight_23 = document.querySelector('#body-weight-23');
 const bodyWeight_24 = document.querySelector('#body-weight-24');
 
 //Fat Percentage
-const fatPercent_1 = document.querySelector('#fat-percent-1');
-const fatPercent_2 = document.querySelector('#fat-percent-2');
-const fatPercent_3 = document.querySelector('#fat-percent-3');
-const fatPercent_4 = document.querySelector('#fat-percent-4');
-const fatPercent_5 = document.querySelector('#fat-percent-5');
-const fatPercent_6 = document.querySelector('#fat-percent-6');
+export const fatPercent_1 = document.querySelector('#fat-percent-1');
+export const fatPercent_2 = document.querySelector('#fat-percent-2');
+export const fatPercent_3 = document.querySelector('#fat-percent-3');
+export const fatPercent_4 = document.querySelector('#fat-percent-4');
+export const fatPercent_5 = document.querySelector('#fat-percent-5');
+export const fatPercent_6 = document.querySelector('#fat-percent-6');
 
-const fatPercent_7 = document.querySelector('#fat-percent-7');
-const fatPercent_8 = document.querySelector('#fat-percent-8');
-const fatPercent_9 = document.querySelector('#fat-percent-9');
-const fatPercent_10 = document.querySelector('#fat-percent-10');
-const fatPercent_11 = document.querySelector('#fat-percent-11');
-const fatPercent_12 = document.querySelector('#fat-percent-12');
+export const fatPercent_7 = document.querySelector('#fat-percent-7');
+export const fatPercent_8 = document.querySelector('#fat-percent-8');
+export const fatPercent_9 = document.querySelector('#fat-percent-9');
+export const fatPercent_10 = document.querySelector('#fat-percent-10');
+export const fatPercent_11 = document.querySelector('#fat-percent-11');
+export const fatPercent_12 = document.querySelector('#fat-percent-12');
 
-const fatPercent_13 = document.querySelector('#fat-percent-13');
-const fatPercent_14 = document.querySelector('#fat-percent-14');
-const fatPercent_15 = document.querySelector('#fat-percent-15');
-const fatPercent_16 = document.querySelector('#fat-percent-16');
-const fatPercent_17 = document.querySelector('#fat-percent-17');
-const fatPercent_18 = document.querySelector('#fat-percent-18');
+export const fatPercent_13 = document.querySelector('#fat-percent-13');
+export const fatPercent_14 = document.querySelector('#fat-percent-14');
+export const fatPercent_15 = document.querySelector('#fat-percent-15');
+export const fatPercent_16 = document.querySelector('#fat-percent-16');
+export const fatPercent_17 = document.querySelector('#fat-percent-17');
+export const fatPercent_18 = document.querySelector('#fat-percent-18');
 
-const fatPercent_19 = document.querySelector('#fat-percent-19');
-const fatPercent_20 = document.querySelector('#fat-percent-20');
-const fatPercent_21 = document.querySelector('#fat-percent-21');
-const fatPercent_22 = document.querySelector('#fat-percent-22');
-const fatPercent_23 = document.querySelector('#fat-percent-23');
-const fatPercent_24 = document.querySelector('#fat-percent-24');
+export const fatPercent_19 = document.querySelector('#fat-percent-19');
+export const fatPercent_20 = document.querySelector('#fat-percent-20');
+export const fatPercent_21 = document.querySelector('#fat-percent-21');
+export const fatPercent_22 = document.querySelector('#fat-percent-22');
+export const fatPercent_23 = document.querySelector('#fat-percent-23');
+export const fatPercent_24 = document.querySelector('#fat-percent-24');
 
 //Fat Kilo
-const fatKilo_1 = document.querySelector('#fat-kilo-1');
-const fatKilo_2 = document.querySelector('#fat-kilo-2');
-const fatKilo_3 = document.querySelector('#fat-kilo-3');
-const fatKilo_4 = document.querySelector('#fat-kilo-4');
-const fatKilo_5 = document.querySelector('#fat-kilo-5');
-const fatKilo_6 = document.querySelector('#fat-kilo-6');
+export const fatKilo_1 = document.querySelector('#fat-kilo-1');
+export const fatKilo_2 = document.querySelector('#fat-kilo-2');
+export const fatKilo_3 = document.querySelector('#fat-kilo-3');
+export const fatKilo_4 = document.querySelector('#fat-kilo-4');
+export const fatKilo_5 = document.querySelector('#fat-kilo-5');
+export const fatKilo_6 = document.querySelector('#fat-kilo-6');
 
-const fatKilo_7 = document.querySelector('#fat-kilo-7');
-const fatKilo_8 = document.querySelector('#fat-kilo-8');
-const fatKilo_9 = document.querySelector('#fat-kilo-9');
-const fatKilo_10 = document.querySelector('#fat-kilo-10');
-const fatKilo_11 = document.querySelector('#fat-kilo-11');
-const fatKilo_12 = document.querySelector('#fat-kilo-12');
+export const fatKilo_7 = document.querySelector('#fat-kilo-7');
+export const fatKilo_8 = document.querySelector('#fat-kilo-8');
+export const fatKilo_9 = document.querySelector('#fat-kilo-9');
+export const fatKilo_10 = document.querySelector('#fat-kilo-10');
+export const fatKilo_11 = document.querySelector('#fat-kilo-11');
+export const fatKilo_12 = document.querySelector('#fat-kilo-12');
 
-const fatKilo_13 = document.querySelector('#fat-kilo-13');
-const fatKilo_14 = document.querySelector('#fat-kilo-14');
-const fatKilo_15 = document.querySelector('#fat-kilo-15');
-const fatKilo_16 = document.querySelector('#fat-kilo-16');
-const fatKilo_17 = document.querySelector('#fat-kilo-17');
-const fatKilo_18 = document.querySelector('#fat-kilo-18');
+export const fatKilo_13 = document.querySelector('#fat-kilo-13');
+export const fatKilo_14 = document.querySelector('#fat-kilo-14');
+export const fatKilo_15 = document.querySelector('#fat-kilo-15');
+export const fatKilo_16 = document.querySelector('#fat-kilo-16');
+export const fatKilo_17 = document.querySelector('#fat-kilo-17');
+export const fatKilo_18 = document.querySelector('#fat-kilo-18');
 
-const fatKilo_19 = document.querySelector('#fat-kilo-19');
-const fatKilo_20 = document.querySelector('#fat-kilo-20');
-const fatKilo_21 = document.querySelector('#fat-kilo-21');
-const fatKilo_22 = document.querySelector('#fat-kilo-22');
-const fatKilo_23 = document.querySelector('#fat-kilo-23');
-const fatKilo_24 = document.querySelector('#fat-kilo-24');
+export const fatKilo_19 = document.querySelector('#fat-kilo-19');
+export const fatKilo_20 = document.querySelector('#fat-kilo-20');
+export const fatKilo_21 = document.querySelector('#fat-kilo-21');
+export const fatKilo_22 = document.querySelector('#fat-kilo-22');
+export const fatKilo_23 = document.querySelector('#fat-kilo-23');
+export const fatKilo_24 = document.querySelector('#fat-kilo-24');
 // Lean Weight Kg
-const leanKilo_1 = document.querySelector('#lean-weight-1');
-const leanKilo_2 = document.querySelector('#lean-weight-2');
-const leanKilo_3 = document.querySelector('#lean-weight-3');
-const leanKilo_4 = document.querySelector('#lean-weight-4');
-const leanKilo_5 = document.querySelector('#lean-weight-5');
-const leanKilo_6 = document.querySelector('#lean-weight-6');
+export const leanKilo_1 = document.querySelector('#lean-weight-1');
+export const leanKilo_2 = document.querySelector('#lean-weight-2');
+export const leanKilo_3 = document.querySelector('#lean-weight-3');
+export const leanKilo_4 = document.querySelector('#lean-weight-4');
+export const leanKilo_5 = document.querySelector('#lean-weight-5');
+export const leanKilo_6 = document.querySelector('#lean-weight-6');
 
-const leanKilo_7 = document.querySelector('#lean-weight-7');
-const leanKilo_8 = document.querySelector('#lean-weight-8');
-const leanKilo_9 = document.querySelector('#lean-weight-9');
-const leanKilo_10 = document.querySelector('#lean-weight-10');
-const leanKilo_11 = document.querySelector('#lean-weight-11');
-const leanKilo_12 = document.querySelector('#lean-weight-12');
+export const leanKilo_7 = document.querySelector('#lean-weight-7');
+export const leanKilo_8 = document.querySelector('#lean-weight-8');
+export const leanKilo_9 = document.querySelector('#lean-weight-9');
+export const leanKilo_10 = document.querySelector('#lean-weight-10');
+export const leanKilo_11 = document.querySelector('#lean-weight-11');
+export const leanKilo_12 = document.querySelector('#lean-weight-12');
 
-const leanKilo_13 = document.querySelector('#lean-weight-13');
-const leanKilo_14 = document.querySelector('#lean-weight-14');
-const leanKilo_15 = document.querySelector('#lean-weight-15');
-const leanKilo_16 = document.querySelector('#lean-weight-16');
-const leanKilo_17 = document.querySelector('#lean-weight-17');
-const leanKilo_18 = document.querySelector('#lean-weight-18');
+export const leanKilo_13 = document.querySelector('#lean-weight-13');
+export const leanKilo_14 = document.querySelector('#lean-weight-14');
+export const leanKilo_15 = document.querySelector('#lean-weight-15');
+export const leanKilo_16 = document.querySelector('#lean-weight-16');
+export const leanKilo_17 = document.querySelector('#lean-weight-17');
+export const leanKilo_18 = document.querySelector('#lean-weight-18');
 
-const leanKilo_19 = document.querySelector('#lean-weight-19');
-const leanKilo_20 = document.querySelector('#lean-weight-20');
-const leanKilo_21 = document.querySelector('#lean-weight-21');
-const leanKilo_22 = document.querySelector('#lean-weight-22');
-const leanKilo_23 = document.querySelector('#lean-weight-23');
-const leanKilo_24 = document.querySelector('#lean-weight-24');
+export const leanKilo_19 = document.querySelector('#lean-weight-19');
+export const leanKilo_20 = document.querySelector('#lean-weight-20');
+export const leanKilo_21 = document.querySelector('#lean-weight-21');
+export const leanKilo_22 = document.querySelector('#lean-weight-22');
+export const leanKilo_23 = document.querySelector('#lean-weight-23');
+export const leanKilo_24 = document.querySelector('#lean-weight-24');
 
 // Water %
-const waterPercent_1 = document.querySelector('#water-percent-1');
-const waterPercent_2 = document.querySelector('#water-percent-2');
-const waterPercent_3 = document.querySelector('#water-percent-3');
-const waterPercent_4 = document.querySelector('#water-percent-4');
-const waterPercent_5 = document.querySelector('#water-percent-5');
-const waterPercent_6 = document.querySelector('#water-percent-6');
+export const waterPercent_1 = document.querySelector('#water-percent-1');
+export const waterPercent_2 = document.querySelector('#water-percent-2');
+export const waterPercent_3 = document.querySelector('#water-percent-3');
+export const waterPercent_4 = document.querySelector('#water-percent-4');
+export const waterPercent_5 = document.querySelector('#water-percent-5');
+export const waterPercent_6 = document.querySelector('#water-percent-6');
 
-const waterPercent_7 = document.querySelector('#water-percent-7');
-const waterPercent_8 = document.querySelector('#water-percent-8');
-const waterPercent_9 = document.querySelector('#water-percent-9');
-const waterPercent_10 = document.querySelector('#water-percent-10');
-const waterPercent_11 = document.querySelector('#water-percent-11');
-const waterPercent_12 = document.querySelector('#water-percent-12');
+export const waterPercent_7 = document.querySelector('#water-percent-7');
+export const waterPercent_8 = document.querySelector('#water-percent-8');
+export const waterPercent_9 = document.querySelector('#water-percent-9');
+export const waterPercent_10 = document.querySelector('#water-percent-10');
+export const waterPercent_11 = document.querySelector('#water-percent-11');
+export const waterPercent_12 = document.querySelector('#water-percent-12');
 
-const waterPercent_13 = document.querySelector('#water-percent-13');
-const waterPercent_14 = document.querySelector('#water-percent-14');
-const waterPercent_15 = document.querySelector('#water-percent-15');
-const waterPercent_16 = document.querySelector('#water-percent-16');
-const waterPercent_17 = document.querySelector('#water-percent-17');
-const waterPercent_18 = document.querySelector('#water-percent-18');
+export const waterPercent_13 = document.querySelector('#water-percent-13');
+export const waterPercent_14 = document.querySelector('#water-percent-14');
+export const waterPercent_15 = document.querySelector('#water-percent-15');
+export const waterPercent_16 = document.querySelector('#water-percent-16');
+export const waterPercent_17 = document.querySelector('#water-percent-17');
+export const waterPercent_18 = document.querySelector('#water-percent-18');
 
-const waterPercent_19 = document.querySelector('#water-percent-19');
-const waterPercent_20 = document.querySelector('#water-percent-20');
-const waterPercent_21 = document.querySelector('#water-percent-21');
-const waterPercent_22 = document.querySelector('#water-percent-22');
-const waterPercent_23 = document.querySelector('#water-percent-23');
-const waterPercent_24 = document.querySelector('#water-percent-24');
+export const waterPercent_19 = document.querySelector('#water-percent-19');
+export const waterPercent_20 = document.querySelector('#water-percent-20');
+export const waterPercent_21 = document.querySelector('#water-percent-21');
+export const waterPercent_22 = document.querySelector('#water-percent-22');
+export const waterPercent_23 = document.querySelector('#water-percent-23');
+export const waterPercent_24 = document.querySelector('#water-percent-24');
 
 // Total Body Water
-const totalBodyWater_1 = document.querySelector('#total-body-water-1');
-const totalBodyWater_2 = document.querySelector('#total-body-water-2');
-const totalBodyWater_3 = document.querySelector('#total-body-water-3');
-const totalBodyWater_4 = document.querySelector('#total-body-water-4');
-const totalBodyWater_5 = document.querySelector('#total-body-water-5');
-const totalBodyWater_6 = document.querySelector('#total-body-water-6');
+export const totalBodyWater_1 = document.querySelector('#total-body-water-1');
+export const totalBodyWater_2 = document.querySelector('#total-body-water-2');
+export const totalBodyWater_3 = document.querySelector('#total-body-water-3');
+export const totalBodyWater_4 = document.querySelector('#total-body-water-4');
+export const totalBodyWater_5 = document.querySelector('#total-body-water-5');
+export const totalBodyWater_6 = document.querySelector('#total-body-water-6');
 
-const totalBodyWater_7 = document.querySelector('#total-body-water-7');
-const totalBodyWater_8 = document.querySelector('#total-body-water-8');
-const totalBodyWater_9 = document.querySelector('#total-body-water-9');
-const totalBodyWater_10 = document.querySelector('#total-body-water-10');
-const totalBodyWater_11 = document.querySelector('#total-body-water-11');
-const totalBodyWater_12 = document.querySelector('#total-body-water-12');
+export const totalBodyWater_7 = document.querySelector('#total-body-water-7');
+export const totalBodyWater_8 = document.querySelector('#total-body-water-8');
+export const totalBodyWater_9 = document.querySelector('#total-body-water-9');
+export const totalBodyWater_10 = document.querySelector('#total-body-water-10');
+export const totalBodyWater_11 = document.querySelector('#total-body-water-11');
+export const totalBodyWater_12 = document.querySelector('#total-body-water-12');
 
-const totalBodyWater_13 = document.querySelector('#total-body-water-13');
-const totalBodyWater_14 = document.querySelector('#total-body-water-14');
-const totalBodyWater_15 = document.querySelector('#total-body-water-15');
-const totalBodyWater_16 = document.querySelector('#total-body-water-16');
-const totalBodyWater_17 = document.querySelector('#total-body-water-17');
-const totalBodyWater_18 = document.querySelector('#total-body-water-18');
+export const totalBodyWater_13 = document.querySelector('#total-body-water-13');
+export const totalBodyWater_14 = document.querySelector('#total-body-water-14');
+export const totalBodyWater_15 = document.querySelector('#total-body-water-15');
+export const totalBodyWater_16 = document.querySelector('#total-body-water-16');
+export const totalBodyWater_17 = document.querySelector('#total-body-water-17');
+export const totalBodyWater_18 = document.querySelector('#total-body-water-18');
 
-const totalBodyWater_19 = document.querySelector('#total-body-water-19');
-const totalBodyWater_20 = document.querySelector('#total-body-water-20');
-const totalBodyWater_21 = document.querySelector('#total-body-water-21');
-const totalBodyWater_22 = document.querySelector('#total-body-water-22');
-const totalBodyWater_23 = document.querySelector('#total-body-water-23');
-const totalBodyWater_24 = document.querySelector('#total-body-water-24');
+export const totalBodyWater_19 = document.querySelector('#total-body-water-19');
+export const totalBodyWater_20 = document.querySelector('#total-body-water-20');
+export const totalBodyWater_21 = document.querySelector('#total-body-water-21');
+export const totalBodyWater_22 = document.querySelector('#total-body-water-22');
+export const totalBodyWater_23 = document.querySelector('#total-body-water-23');
+export const totalBodyWater_24 = document.querySelector('#total-body-water-24');
 
 // Dry Lean Kg
 const dryLean_1 = document.querySelector('#dry-lean-kilo-1');
@@ -346,6 +346,19 @@ const hipsCm_21 = document.querySelector('#hips-cm-21');
 const hipsCm_22 = document.querySelector('#hips-cm-22');
 const hipsCm_23 = document.querySelector('#hips-cm-23');
 const hipsCm_24 = document.querySelector('#hips-cm-24');
+
+//Function to store data in localstorage
+export const persistInput = (input) => {
+  var key = 'input-' + input.id;
+
+  var storedValue = localStorage.getItem(key);
+
+  if (storedValue) input.value = storedValue;
+
+  input.addEventListener('input', function () {
+    localStorage.setItem(key, input.value);
+  });
+};
 
 //Dates Data
 persistInput(dateFirstColumn_1);
@@ -637,7 +650,6 @@ persistInput(energyKcal_22);
 persistInput(energyKcal_23);
 persistInput(energyKcal_24);
 
-
 // Waist Cm
 persistInput(waistCm_1);
 persistInput(waistCm_2);
@@ -695,16 +707,3 @@ persistInput(hipsCm_21);
 persistInput(hipsCm_22);
 persistInput(hipsCm_23);
 persistInput(hipsCm_24);
-
-//Function to store data in localstorage
-function persistInput(input) {
-  var key = 'input-' + input.id;
-
-  var storedValue = localStorage.getItem(key);
-
-  if (storedValue) input.value = storedValue;
-
-  input.addEventListener('input', function () {
-    localStorage.setItem(key, input.value);
-  });
-}
