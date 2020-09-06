@@ -355,7 +355,14 @@ export const persistInput = (input) => {
 
   if (storedValue) input.value = storedValue;
 
-  input.addEventListener('input', function () {
+  input.addEventListener('input', function (evt) {
+    // key = "Enter"
+    // if (evt.key == key) {
+    //   window.location.reload();
+    //   console.log(evt.code);
+    // }
+    console.log(evt);
+
     localStorage.setItem(key, input.value);
   });
 };
