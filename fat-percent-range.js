@@ -32,7 +32,7 @@ if (fatPercent_1.value >= 16 && fatPercent_1.value <= 20) {
   fatPercent_1.style.background = 'red';
 } else {
   fatPercent_1.value <= 16;
-  fatPercent_1.style.background == 'orange';
+  fatPercent_1.style.background == 'red';
 }
 if (fatPercent_2.value >= 16 && fatPercent_2.value <= 20) {
   fatPercent_2.style.background = 'green';
@@ -40,7 +40,7 @@ if (fatPercent_2.value >= 16 && fatPercent_2.value <= 20) {
   fatPercent_2.style.background = 'red';
 } else {
   fatPercent_2.value <= 16;
-  fatPercent_2.style.background = 'orange';
+  fatPercent_2.style.background = 'red';
 }
 
 if (fatPercent_3.value >= 16 && fatPercent_3.value <= 20) {
@@ -49,7 +49,7 @@ if (fatPercent_3.value >= 16 && fatPercent_3.value <= 20) {
   fatPercent_6.style.background = 'red';
 } else {
   fatPercent_3.value <= 16;
-  fatPercent_3.style.background = 'orange';
+  fatPercent_3.style.background = 'red';
 }
 
 if (fatPercent_4.value >= 16 && fatPercent_4.value <= 20) {
@@ -58,7 +58,7 @@ if (fatPercent_4.value >= 16 && fatPercent_4.value <= 20) {
   fatPercent_4.style.background = 'red';
 } else {
   fatPercent_4.value <= 16;
-  fatPercent_4.style.background = 'orange';
+  fatPercent_4.style.background = 'red';
 }
 
 if (fatPercent_5.value >= 16 && fatPercent_5.value <= 20) {
@@ -67,7 +67,7 @@ if (fatPercent_5.value >= 16 && fatPercent_5.value <= 20) {
   fatPercent_5.style.background = 'red';
 } else {
   fatPercent_5.value <= 16;
-  fatPercent_5.style.background = 'orange';
+  fatPercent_5.style.background = 'red';
 }
 
 if (fatPercent_6.value >= 16 && fatPercent_6.value <= 20) {
@@ -76,7 +76,7 @@ if (fatPercent_6.value >= 16 && fatPercent_6.value <= 20) {
   fatPercent_6.style.background = 'red';
 } else {
   fatPercent_6.value <= 16;
-  fatPercent_6.style.background = 'orange';
+  fatPercent_6.style.background = 'red';
 }
 
 if (fatPercent_7.value >= 16 && fatPercent_7.value <= 20) {
@@ -85,7 +85,7 @@ if (fatPercent_7.value >= 16 && fatPercent_7.value <= 20) {
   fatPercent_7.style.background = 'red';
 } else {
   fatPercent_7.value <= 16;
-  fatPercent_7.style.background = 'orange';
+  fatPercent_7.style.background = 'red';
 }
 
 if (fatPercent_8.value >= 16 && fatPercent_8.value <= 20) {
@@ -94,7 +94,7 @@ if (fatPercent_8.value >= 16 && fatPercent_8.value <= 20) {
   fatPercent_8.style.background = 'red';
 } else {
   fatPercent_8.value <= 16;
-  fatPercent_8.style.background = 'orange';
+  fatPercent_8.style.background = 'red';
 }
 
 if (fatPercent_9.value >= 16 && fatPercent_9.value <= 20) {
@@ -103,7 +103,7 @@ if (fatPercent_9.value >= 16 && fatPercent_9.value <= 20) {
   fatPercent_9.style.background = 'red';
 } else {
   fatPercent_9.value <= 16;
-  fatPercent_9.style.background = 'orange';
+  fatPercent_9.style.background = 'red';
 }
 
 if (fatPercent_10.value >= 16 && fatPercent_10.value <= 20) {
@@ -112,7 +112,7 @@ if (fatPercent_10.value >= 16 && fatPercent_10.value <= 20) {
   fatPercent_10.style.background = 'red';
 } else {
   fatPercent_10.value <= 16;
-  fatPercent_10.style.background = 'orange';
+  fatPercent_10.style.background = 'red';
 }
 
 if (fatPercent_11.value >= 16 && fatPercent_11.value <= 20) {
@@ -121,7 +121,7 @@ if (fatPercent_11.value >= 16 && fatPercent_11.value <= 20) {
   fatPercent_11.style.background = 'red';
 } else {
   fatPercent_11.value <= 16;
-  fatPercent_11.style.background = 'orange';
+  fatPercent_11.style.background = 'red';
 }
 
 if (fatPercent_12.value >= 16 && fatPercent_12.value <= 20) {
@@ -130,7 +130,7 @@ if (fatPercent_12.value >= 16 && fatPercent_12.value <= 20) {
   fatPercent_12.style.background = 'red';
 } else {
   fatPercent_12.value <= 16;
-  fatPercent_12.style.background = 'orange';
+  fatPercent_12.style.background = 'red';
 }
 
 if (fatPercent_13.value >= 16 && fatPercent_13.value <= 20) {
@@ -139,7 +139,7 @@ if (fatPercent_13.value >= 16 && fatPercent_13.value <= 20) {
   fatPercent_13.style.background = 'red';
 } else {
   fatPercent_13.value <= 16;
-  fatPercent_13.style.background = 'orange';
+  fatPercent_13.style.background = 'red';
 }
 
 if (fatPercent_14.value >= 16 && fatPercent_14.value <= 20) {
@@ -148,7 +148,7 @@ if (fatPercent_14.value >= 16 && fatPercent_14.value <= 20) {
   fatPercent_14.style.background = 'red';
 } else {
   fatPercent_14.value <= 16;
-  fatPercent_14.style.background = 'orange';
+  fatPercent_14.style.background = 'red';
 }
 
 if (fatPercent_15.value >= 16 && fatPercent_15.value <= 20) {
@@ -157,7 +157,7 @@ if (fatPercent_15.value >= 16 && fatPercent_15.value <= 20) {
   fatPercent_15.style.background = 'red';
 } else {
   fatPercent_15.value <= 16;
-  fatPercent_15.style.background = 'orange';
+  fatPercent_15.style.background = 'red';
 }
 if (fatPercent_16.value >= 16 && fatPercent_16.value <= 20) {
   fatPercent_16.style.background = 'green';
@@ -165,7 +165,7 @@ if (fatPercent_16.value >= 16 && fatPercent_16.value <= 20) {
   fatPercent_16.style.background = 'red';
 } else {
   fatPercent_16.value <= 16;
-  fatPercent_16.style.background = 'orange';
+  fatPercent_16.style.background = 'red';
 }
 if (fatPercent_17.value >= 16 && fatPercent_17.value <= 20) {
   fatPercent_17.style.background = 'green';
@@ -173,7 +173,7 @@ if (fatPercent_17.value >= 16 && fatPercent_17.value <= 20) {
   fatPercent_17.style.background = 'red';
 } else {
   fatPercent_17.value <= 16;
-  fatPercent_17.style.background = 'orange';
+  fatPercent_17.style.background = 'red';
 }
 
 if (fatPercent_18.value >= 16 && fatPercent_18.value <= 20) {
@@ -182,7 +182,7 @@ if (fatPercent_18.value >= 16 && fatPercent_18.value <= 20) {
   fatPercent_18.style.background = 'red';
 } else {
   fatPercent_18.value <= 16;
-  fatPercent_18.style.background = 'orange';
+  fatPercent_18.style.background = 'red';
 }
 
 if (fatPercent_19.value >= 16 && fatPercent_19.value <= 20) {
@@ -191,7 +191,7 @@ if (fatPercent_19.value >= 16 && fatPercent_19.value <= 20) {
   fatPercent_19.style.background = 'red';
 } else {
   fatPercent_19.value <= 16;
-  fatPercent_19.style.background = 'orange';
+  fatPercent_19.style.background = 'red';
 }
 if (fatPercent_20.value >= 16 && fatPercent_20.value <= 20) {
   fatPercent_20.style.background = 'green';
@@ -199,7 +199,7 @@ if (fatPercent_20.value >= 16 && fatPercent_20.value <= 20) {
   fatPercent_20.style.background = 'red';
 } else {
   fatPercent_20.value <= 16;
-  fatPercent_20.style.background = 'orange';
+  fatPercent_20.style.background = 'red';
 }
 if (fatPercent_21.value >= 16 && fatPercent_21.value <= 20) {
   fatPercent_21.style.background = 'green';
@@ -207,7 +207,7 @@ if (fatPercent_21.value >= 16 && fatPercent_21.value <= 20) {
   fatPercent_21.style.background = 'red';
 } else {
   fatPercent_21.value <= 16;
-  fatPercent_21.style.background = 'orange';
+  fatPercent_21.style.background = 'red';
 }
 if (fatPercent_22.value >= 16 && fatPercent_22.value <= 20) {
   fatPercent_22.style.background = 'green';
@@ -215,7 +215,7 @@ if (fatPercent_22.value >= 16 && fatPercent_22.value <= 20) {
   fatPercent_22.style.background = 'red';
 } else {
   fatPercent_22.value <= 16;
-  fatPercent_22.style.background = 'orange';
+  fatPercent_22.style.background = 'red';
 }
 if (fatPercent_23.value >= 16 && fatPercent_23.value <= 20) {
   fatPercent_23.style.background = 'green';
@@ -223,7 +223,7 @@ if (fatPercent_23.value >= 16 && fatPercent_23.value <= 20) {
   fatPercent_23.style.background = 'red';
 } else {
   fatPercent_23.value <= 16;
-  fatPercent_23.style.background = 'orange';
+  fatPercent_23.style.background = 'red';
 }
 if (fatPercent_24.value >= 16 && fatPercent_24.value <= 20) {
   fatPercent_24.style.background = 'green';
@@ -231,5 +231,5 @@ if (fatPercent_24.value >= 16 && fatPercent_24.value <= 20) {
   fatPercent_24.style.background = 'red';
 } else {
   fatPercent_24.value <= 16;
-  fatPercent_24.style.background = 'orange';
+  fatPercent_24.style.background = 'red';
 }

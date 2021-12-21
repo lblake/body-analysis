@@ -29,7 +29,7 @@ if (fatKilo_1.value >= 12 && fatKilo_1.value <= 15) {
   fatKilo_1.style.background = 'red';
 } else {
   fatKilo_1.value <= 12;
-  fatKilo_1.style.background = 'orange';
+  fatKilo_1.style.background = 'red';
 }
 
 if (fatKilo_2.value >= 12 && fatKilo_2.value <= 15) {
@@ -38,7 +38,7 @@ if (fatKilo_2.value >= 12 && fatKilo_2.value <= 15) {
   fatKilo_2.style.background = 'red';
 } else {
   fatKilo_2.value <= 12;
-  fatKilo_2.style.background = 'orange';
+  fatKilo_2.style.background = 'red';
 }
 if (fatKilo_3.value >= 12 && fatKilo_3.value <= 15) {
   fatKilo_3.style.background = 'green';
@@ -46,7 +46,7 @@ if (fatKilo_3.value >= 12 && fatKilo_3.value <= 15) {
   fatKilo_3.style.background = 'red';
 } else {
   fatKilo_3.value <= 12;
-  fatKilo_3.style.background = 'orange';
+  fatKilo_3.style.background = 'red';
 }
 if (fatKilo_4.value >= 12 && fatKilo_4.value <= 15) {
   fatKilo_4.style.background = 'green';
@@ -54,7 +54,7 @@ if (fatKilo_4.value >= 12 && fatKilo_4.value <= 15) {
   fatKilo_4.style.background = 'red';
 } else {
   fatKilo_4.value <= 12;
-  fatKilo_4.style.background = 'orange';
+  fatKilo_4.style.background = 'red';
 }
 if (fatKilo_5.value >= 12 && fatKilo_5.value <= 15) {
   fatKilo_5.style.background = 'green';
@@ -62,7 +62,7 @@ if (fatKilo_5.value >= 12 && fatKilo_5.value <= 15) {
   fatKilo_5.style.background = 'red';
 } else {
   fatKilo_5.value <= 12;
-  fatKilo_5.style.background = 'orange';
+  fatKilo_5.style.background = 'red';
 }
 if (fatKilo_6.value >= 12 && fatKilo_6.value <= 15) {
   fatKilo_6.style.background = 'green';
@@ -70,7 +70,7 @@ if (fatKilo_6.value >= 12 && fatKilo_6.value <= 15) {
   fatKilo_6.style.background = 'red';
 } else {
   fatKilo_6.value <= 12;
-  fatKilo_6.style.background = 'orange';
+  fatKilo_6.style.background = 'red';
 }
 if (fatKilo_7.value >= 12 && fatKilo_7.value <= 15) {
   fatKilo_7.style.background = 'green';
@@ -78,7 +78,7 @@ if (fatKilo_7.value >= 12 && fatKilo_7.value <= 15) {
   fatKilo_7.style.background = 'red';
 } else {
   fatKilo_7.value <= 12;
-  fatKilo_7.style.background = 'orange';
+  fatKilo_7.style.background = 'red';
 }
 if (fatKilo_8.value >= 12 && fatKilo_8.value <= 15) {
   fatKilo_8.style.background = 'green';
@@ -86,7 +86,7 @@ if (fatKilo_8.value >= 12 && fatKilo_8.value <= 15) {
   fatKilo_8.style.background = 'red';
 } else {
   fatKilo_8.value <= 12;
-  fatKilo_8.style.background = 'orange';
+  fatKilo_8.style.background = 'red';
 }
 if (fatKilo_9.value >= 12 && fatKilo_9.value <= 15) {
   fatKilo_9.style.background = 'green';
@@ -94,7 +94,7 @@ if (fatKilo_9.value >= 12 && fatKilo_9.value <= 15) {
   fatKilo_9.style.background = 'red';
 } else {
   fatKilo_9.value <= 12;
-  fatKilo_9.style.background = 'orange';
+  fatKilo_9.style.background = 'red';
 }
 if (fatKilo_10.value >= 12 && fatKilo_1.value <= 15) {
   fatKilo_10.style.background = 'green';
@@ -102,7 +102,7 @@ if (fatKilo_10.value >= 12 && fatKilo_1.value <= 15) {
   fatKilo_10.style.background = 'red';
 } else {
   fatKilo_10.value <= 12;
-  fatKilo_10.style.background = 'orange';
+  fatKilo_10.style.background = 'red';
 }
 if (fatKilo_11.value >= 12 && fatKilo_11.value <= 15) {
   fatKilo_11.style.background = 'green';
@@ -110,7 +110,7 @@ if (fatKilo_11.value >= 12 && fatKilo_11.value <= 15) {
   fatKilo_11.style.background = 'red';
 } else {
   fatKilo_11.value <= 12;
-  fatKilo_11.style.background = 'orange';
+  fatKilo_11.style.background = 'red';
 }
 if (fatKilo_12.value >= 12 && fatKilo_12.value <= 15) {
   fatKilo_12.style.background = 'green';
@@ -118,7 +118,7 @@ if (fatKilo_12.value >= 12 && fatKilo_12.value <= 15) {
   fatKilo_12.style.background = 'red';
 } else {
   fatKilo_12.value <= 12;
-  fatKilo_12.style.background = 'orange';
+  fatKilo_12.style.background = 'red';
 }
 if (fatKilo_13.value >= 12 && fatKilo_13.value <= 15) {
   fatKilo_13.style.background = 'green';
@@ -126,7 +126,7 @@ if (fatKilo_13.value >= 12 && fatKilo_13.value <= 15) {
   fatKilo_13.style.background = 'red';
 } else {
   fatKilo_13.value <= 12;
-  fatKilo_13.style.background = 'orange';
+  fatKilo_13.style.background = 'red';
 }
 if (fatKilo_14.value >= 12 && fatKilo_14.value <= 15) {
   fatKilo_14.style.background = 'green';
@@ -134,7 +134,7 @@ if (fatKilo_14.value >= 12 && fatKilo_14.value <= 15) {
   fatKilo_14.style.background = 'red';
 } else {
   fatKilo_14.value <= 12;
-  fatKilo_14.style.background = 'orange';
+  fatKilo_14.style.background = 'red';
 }
 if (fatKilo_15.value >= 12 && fatKilo_15.value <= 15) {
   fatKilo_15.style.background = 'green';
@@ -142,7 +142,7 @@ if (fatKilo_15.value >= 12 && fatKilo_15.value <= 15) {
   fatKilo_15.style.background = 'red';
 } else {
   fatKilo_15.value <= 12;
-  fatKilo_15.style.background = 'orange';
+  fatKilo_15.style.background = 'red';
 }
 if (fatKilo_16.value >= 12 && fatKilo_16.value <= 15) {
   fatKilo_16.style.background = 'green';
@@ -150,7 +150,7 @@ if (fatKilo_16.value >= 12 && fatKilo_16.value <= 15) {
   fatKilo_16.style.background = 'red';
 } else {
   fatKilo_16.value <= 12;
-  fatKilo_16.style.background = 'orange';
+  fatKilo_16.style.background = 'red';
 }
 if (fatKilo_17.value >= 12 && fatKilo_17.value <= 15) {
   fatKilo_17.style.background = 'green';
@@ -158,7 +158,7 @@ if (fatKilo_17.value >= 12 && fatKilo_17.value <= 15) {
   fatKilo_17.style.background = 'red';
 } else {
   fatKilo_17.value <= 12;
-  fatKilo_17.style.background = 'orange';
+  fatKilo_17.style.background = 'red';
 }
 if (fatKilo_18.value >= 12 && fatKilo_18.value <= 15) {
   fatKilo_18.style.background = 'green';
@@ -166,7 +166,7 @@ if (fatKilo_18.value >= 12 && fatKilo_18.value <= 15) {
   fatKilo_18.style.background = 'red';
 } else {
   fatKilo_18.value <= 12;
-  fatKilo_18.style.background = 'orange';
+  fatKilo_18.style.background = 'red';
 }
 if (fatKilo_19.value >= 12 && fatKilo_19.value <= 15) {
   fatKilo_19.style.background = 'green';
@@ -174,7 +174,7 @@ if (fatKilo_19.value >= 12 && fatKilo_19.value <= 15) {
   fatKilo_19.style.background = 'red';
 } else {
   fatKilo_19.value <= 12;
-  fatKilo_19.style.background = 'orange';
+  fatKilo_19.style.background = 'red';
 }
 if (fatKilo_20.value >= 12 && fatKilo_20.value <= 15) {
   fatKilo_20.style.background = 'green';
@@ -182,7 +182,7 @@ if (fatKilo_20.value >= 12 && fatKilo_20.value <= 15) {
   fatKilo_20.style.background = 'red';
 } else {
   fatKilo_20.value <= 12;
-  fatKilo_20.style.background = 'orange';
+  fatKilo_20.style.background = 'red';
 }
 if (fatKilo_21.value >= 12 && fatKilo_21.value <= 15) {
   fatKilo_21.style.background = 'green';
@@ -190,7 +190,7 @@ if (fatKilo_21.value >= 12 && fatKilo_21.value <= 15) {
   fatKilo_21.style.background = 'red';
 } else {
   fatKilo_21.value <= 12;
-  fatKilo_21.style.background = 'orange';
+  fatKilo_21.style.background = 'red';
 }
 if (fatKilo_22.value >= 12 && fatKilo_22.value <= 15) {
   fatKilo_22.style.background = 'green';
@@ -198,7 +198,7 @@ if (fatKilo_22.value >= 12 && fatKilo_22.value <= 15) {
   fatKilo_22.style.background = 'red';
 } else {
   fatKilo_22.value <= 12;
-  fatKilo_22.style.background = 'orange';
+  fatKilo_22.style.background = 'red';
 }
 if (fatKilo_23.value >= 12 && fatKilo_23.value <= 15) {
   fatKilo_23.style.background = 'green';
@@ -206,7 +206,7 @@ if (fatKilo_23.value >= 12 && fatKilo_23.value <= 15) {
   fatKilo_23.style.background = 'red';
 } else {
   fatKilo_23.value <= 12;
-  fatKilo_23.style.background = 'orange';
+  fatKilo_23.style.background = 'red';
 }
 if (fatKilo_24.value >= 12 && fatKilo_24.value <= 15) {
   fatKilo_24.style.background = 'green';
@@ -214,5 +214,5 @@ if (fatKilo_24.value >= 12 && fatKilo_24.value <= 15) {
   fatKilo_24.style.background = 'red';
 } else {
   fatKilo_24.value <= 12;
-  fatKilo_24.style.background = 'orange';
+  fatKilo_24.style.background = 'red';
 }
