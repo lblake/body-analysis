@@ -29,7 +29,7 @@ if (leanKilo_1.value >= 62 && leanKilo_1.value <= 65) {
   leanKilo_1.style.background = 'red';
 } else {
   leanKilo_1.value <= 62;
-  leanKilo_1.style.background = 'orange';
+  leanKilo_1.style.background = 'red';
 }
 
 if (leanKilo_2.value >= 62 && leanKilo_2.value <= 65) {
