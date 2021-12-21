@@ -10,3 +10,5 @@ The site was created using HTML(Tables) CSS & Javascript. Data is saved using th
 The website can be viewed here:
 
 https://lblake.github.io/body-analysis/
+
+![image](./images/body.png)
