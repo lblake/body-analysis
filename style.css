@@ -20,10 +20,10 @@ th {
 }
 
 tr:nth-child(even) {
-  background-color: #fd0;
+  background-color: grey;
 }
 tr:nth-child(odd) {
-  background-color: burlywood;
+  background-color: lightgrey;
 }
 hr {
   margin-top: 20px;
@@ -34,7 +34,6 @@ hr {
 input {
   text-align: center;
   background-color: white;
-
 }
 
 a {
@@ -42,4 +41,3 @@ a {
   justify-content: flex-end;
   padding-bottom: 1rem;
 }
-
