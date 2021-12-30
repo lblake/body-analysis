@@ -8,7 +8,8 @@ The site was created using HTML(Tables) CSS & Javascript. Data is saved using th
 3: When a value is entered you will need to use the 'browsers' refresh option to see the field color change.
 
 The website can be viewed here:
-
+<p align="center">
 https://lblake.github.io/body-analysis/
+  </p>
 
 ![image](./images/body.png)
