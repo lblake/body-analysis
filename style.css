@@ -21,10 +21,10 @@ th {
 }
 
 tr:nth-child(even) {
-  background-color: #fd0;
+  background-color: lightblue;
 }
 tr:nth-child(odd) {
-  background-color: burlywood;
+  background-color: lightblue;
 }
 hr {
   margin-top: 20px;
